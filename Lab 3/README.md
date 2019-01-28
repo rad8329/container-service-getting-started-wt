@@ -52,7 +52,7 @@ In order to begin using the Watson Tone Analyzer (the IBM Cloud service for this
 
 1. If you need to check what space and org you are currently using, simply run `bx login`. Then use `bx target --cf` to select the space and org you were using for the previous labs.
 
-2. Once you have set your space and org, run `bx cf create-service tone_analyzer standard tone`, where `tone` is the name you will use for the Watson Tone Analyzer service.
+2. Once you have set your space and org, run `bx cf create-service tone_analyzer lite tone`, where `tone` is the name you will use for the Watson Tone Analyzer service.
 
    **Note:** When you add the Tone Analyzer service to your account, a message is displayed that the service is not free. If you [limit your API calls](https://www.ibm.com/watson/developercloud/tone-analyzer.html#pricing-block), this course does not incur charges from the Watson service.
 
